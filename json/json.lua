@@ -535,5 +535,6 @@ end
 
 json.encode = encode
 json.decode = decode
+json.null = null
 
 return json
