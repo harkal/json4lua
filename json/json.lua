@@ -3,7 +3,7 @@
 -- json Module.
 -- Author: Craig Mason-Jones
 -- Homepage: http://json.luaforge.net/
--- Version: 0.9.50
+-- Version: 1.0.1
 -- This module is released under the MIT License (MIT).
 -- Please see LICENCE.txt for details.
 --
@@ -18,6 +18,9 @@
 --   compat-5.1 if using Lua 5.0
 --
 -- CHANGELOG
+--   1.0.1  Reinclude speed optimizations removed from original repo
+--          null handling
+--          Empty array parsing 
 --	 0.9.50 Radical performance improvement on decode from Eike Decker. Many thanks!
 --	 0.9.40 Changed licence to MIT License (MIT)
 --   0.9.20 Introduction of local Lua functions for private functions (removed _ function prefix). 
